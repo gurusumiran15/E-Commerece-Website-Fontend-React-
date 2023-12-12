@@ -1,0 +1,11 @@
+.review-card .info {
+  color: var(--grey-text-color);
+}
+
+.star.inactive {
+  fill: var(--border-color-dark);
+}
+
+.star.active {
+  fill: var(--highlight-color);
+}

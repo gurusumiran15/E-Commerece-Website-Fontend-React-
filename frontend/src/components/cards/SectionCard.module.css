@@ -1,0 +1,32 @@
+.section-card {
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.section-card .header {
+  align-items: center;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.section-card .slideshow {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.section-card ::-webkit-scrollbar {
+  max-height: 8px;
+}
+
+/* Track */
+.section-card ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.section-card ::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 10px;
+}

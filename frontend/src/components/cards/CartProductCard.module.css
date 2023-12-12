@@ -1,0 +1,79 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-counter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 150px;
+}
+
+.btn-counter {
+  background-color: transparent;
+  border: solid 1px #aaa;
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+}
+
+.btn-remove {
+  display: block;
+  margin: auto;
+  width: 120px;
+}
+
+.card {
+  border-bottom: solid var(--background-color) 1px;
+  color: #000;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.card .details {
+  display: inline-block;
+  font-weight: 400;
+  margin-right: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.card img {
+  background-color: white;
+  margin: 0 40px 0 auto;
+  object-fit: contain;
+}
+
+.price span {
+  display: inline-block;
+}
+
+.price .main {
+  color: black;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.price .original {
+  color: var(--grey-text-color);
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.price .discount {
+  color: var(--highlight-color);
+  font-size: 0.9rem;
+}
+
+.text-counter {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+}

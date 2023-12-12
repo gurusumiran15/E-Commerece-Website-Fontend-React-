@@ -1,0 +1,66 @@
+.btn-cart {
+  height: 60px;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.preview {
+  border: 1px var(--border-color-dark) solid;
+}
+
+.preview img {
+  display: block;
+  margin: auto;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.price {
+  margin-bottom: 40px;
+}
+
+.price span {
+  display: inline-block;
+}
+
+.price .main {
+  color: black;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.price .original {
+  color: var(--grey-text-color);
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+
+.price .discount {
+  color: var(--highlight-color);
+  font-size: 0.9rem;
+}
+
+.rating {
+  margin-bottom: 5px;
+}
+
+.rating .score {
+  background-color: var(--highlight-color);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.rating .star {
+  display: inline-block;
+  fill: white;
+  margin: auto;
+  padding-bottom: 3px;
+}
+
+.rating .reviews {
+  color: var(--grey-text-color);
+}

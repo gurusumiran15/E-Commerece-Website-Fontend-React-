@@ -1,0 +1,15 @@
+.payment {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.payment h3 {
+  display: inline-block;
+}
+
+.payment button {
+  display: inline-block;
+}

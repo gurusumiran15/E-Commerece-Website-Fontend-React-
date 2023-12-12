@@ -1,0 +1,74 @@
+:root {
+  --background-color: #eee;
+  --border-color-dark: #999;
+  --border-color-light: #ddd;
+  ---dark-color: #212529;
+  --grey-text-color: #888;
+  --highlight-color: #9b4eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  object-fit: contain;
+}
+
+#App {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  padding-bottom: 10px;
+}
+
+#outer-container {
+  margin: auto;
+  max-width: 1500px;
+  padding: 0 20px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.highlight-link {
+  color: var(--highlight-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ovf-ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.zoom {
+  transition: 300ms;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}

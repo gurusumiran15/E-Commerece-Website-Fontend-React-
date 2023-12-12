@@ -1,0 +1,36 @@
+.btn-header {
+  min-width: 110px;
+  width: 100%;
+}
+
+.btn-header i {
+  margin: 5px;
+}
+
+.navbar {
+  display: block !important;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  margin: auto;
+}
+
+.navbar-brand a {
+  color: white;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: 30px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: left;
+  padding: 10px 15px;
+}
